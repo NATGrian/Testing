@@ -16,6 +16,27 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Testing-web-inv(login)/test-page-login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>08e2591c-885f-4e6d-891b-cf5cb6a2c544</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/data-login/input-iogin</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>08e2591c-885f-4e6d-891b-cf5cb6a2c544</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>8c2f7349-89b8-485f-882c-bbc4d62415e7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>08e2591c-885f-4e6d-891b-cf5cb6a2c544</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>c6417c31-3555-4faf-a700-a2544d128f48</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>b9d2fcaa-d423-4f27-bcd0-fb63c1a609b9</guid>
@@ -26,7 +47,13 @@
    <testCaseLink>
       <guid>bc76b3df-b68d-4e86-9762-600439100f30</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Testing-web-inv(member)/test-page-users</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>62414587-5c29-415a-8d5a-f03e224ea36a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Testing-web-inv(people)/test-page-people</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

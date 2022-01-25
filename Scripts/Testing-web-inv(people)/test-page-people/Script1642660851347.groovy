@@ -17,15 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('obj-menus/btn_menu-people'))
 
-WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('obj_page-people/btn_group'))
 
-WebUI.navigateToUrl('http://6111011940001.sci.dusit.ac.th/')
+WebUI.verifyElementPresent(findTestObject('obj_page-people/obj_page-role/verify_page-role'), 3)
 
-WebUI.setText(findTestObject('obj_page-login/txt_email'), vemail)
+WebUI.click(findTestObject('obj_page-people/obj_page-role/btn_addgroup'))
 
-WebUI.setEncryptedText(findTestObject('obj_page-login/txt_password'), vpassword)
+WebUI.verifyElementPresent(findTestObject('obj_page-people/obj_page-role/verify-md_addrole'), 3)
 
-WebUI.click(findTestObject('obj_page-login/btn_login'))
+WebUI.setText(findTestObject('obj_page-people/obj_page-role/txt_rolename'), 'เทส')
+
+WebUI.setText(findTestObject('obj_page-people/obj_page-role/txt_description'), 'ttt')
+
+WebUI.click(findTestObject('obj_page-people/obj_page-role/btn-submitgroup'))
+
+WebUI.click(findTestObject('obj-menus/btn_menu-people'))
+
+WebUI.click(findTestObject('obj_page-people/btn_addpeople'))
+
+WebUI.verifyElementPresent(findTestObject('obj_page-people/verify-md_addpeople'), 3)
 

@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>0de927aa-a242-4e96-bd0e-cf78e263e07a</testCaseGuid>
+   <variable>
+      <defaultValue>'administrator@gmail.com'</defaultValue>
+      <description></description>
+      <id>8c2f7349-89b8-485f-882c-bbc4d62415e7</id>
+      <masked>false</masked>
+      <name>vemail</name>
+   </variable>
+   <variable>
+      <defaultValue>'password'</defaultValue>
+      <description></description>
+      <id>c6417c31-3555-4faf-a700-a2544d128f48</id>
+      <masked>false</masked>
+      <name>vpassword</name>
+   </variable>
 </TestCaseEntity>
